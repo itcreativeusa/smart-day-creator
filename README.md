@@ -37,7 +37,7 @@ No special requirements
 
 Screenshot located in `assets/images` folder
 
-![amazing-history-quiz](assets/images/screenshot.png)
+![smart-day-creator](assets/images/screenshot.png)
 
 ## Credits
 
