@@ -5,11 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--Bootstrap link-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <!--Font link-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!--Google font link-->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <!--Bootstrap icon link-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <!-- Custom css-->
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>Work Day Scheduler</title>
 </head>
@@ -18,18 +23,19 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
+    <!--Current day-->
     <p id="currentDay" class="currentDay"></p>
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
     <div id="hour9" class="row time-block">
       <div class="col-2 hour">9 AM</div>
-      <textarea class="col-8" ></textarea>
+      <textarea class="col-8"></textarea>
       <button class="col-2 saveBtn"><i class="bi bi-clipboard-check-fill"></i></button>
     </div>
     <div id="hour10" class="row time-block">
       <div class="col-2 hour">10 AM</div>
-      <textarea class="col-8"id="task" ></textarea>
+      <textarea class="col-8"></textarea>
       <button class="col-2 saveBtn"><i class="bi bi-clipboard-check-fill"></i></button>
     </div>
     <div id="hour11" class="row time-block">
@@ -39,17 +45,17 @@
     </div>
     <div id="hour12" class="row time-block">
       <div class="col-2 hour">12 AM</div>
-      <textarea class="col-8" ></textarea>
+      <textarea class="col-8"></textarea>
       <button class="col-2 saveBtn"><i class="bi bi-clipboard-check-fill"></i></button>
     </div>
     <div id="hour13" class="row time-block">
       <div class="col-2 hour">1 PM</div>
-      <textarea class="col-8" ></textarea>
+      <textarea class="col-8"></textarea>
       <button class="col-2 saveBtn"><i class="bi bi-clipboard-check-fill"></i></button>
     </div>
     <div id="hour14" class="row time-block">
       <div class="col-2 hour">2 PM</div>
-      <textarea class="col-8" ></textarea>
+      <textarea class="col-8"></textarea>
       <button class="col-2 saveBtn"><i class="bi bi-clipboard-check-fill"></i></button>
     </div>
     <div id="hour15" class="row time-block">
@@ -72,17 +78,18 @@
       <textarea class="col-8"></textarea>
       <button class="col-2 saveBtn"><i class="bi bi-clipboard-check-fill"></i></button>
     </div>
+    <!--Github link-->
     <div class="text-center 
-    p-3 col-12" >Created by <a href="https://github.com/itcreativeusa/smart-day-creator">Kateryna Stetsenko<i class="bi bi-balloon-heart"></i></a> </div>
+    p-3 col-12">Created by <a href="https://github.com/itcreativeusa/smart-day-creator">Kateryna Stetsenko<i
+          class="bi bi-balloon-heart"></i></a> </div>
   </div>
-
+  <!--Jquery link-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
-
-<!-- CDN example (jsDelivr) -->
-<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <!-- Custom JS-->
   <script src="assets/js/script.js"></script>
+  <!-- Moment js-->
   <script src="assets/js/moment.js"></script>
 
 </body>
