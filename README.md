@@ -11,7 +11,7 @@ https://github.com/itcreativeusa/smart-day-creator
 This smart-day-creator was created as a bootcamp everyweek student challege. It's a javascript scheduler app.
 A simple calendar app for scheduling your work day.
 add text to the text field and press save button.
-Еhe text is stored in local storage.
+The text is stored in local storage.
 
 
 ## Table of Contents (Optional)
